@@ -1,0 +1,91 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+.container{
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 15px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.right{
+    width: 60%;
+    margin-top: 2.5em;
+    padding-left: 1.875em;
+}
+.left{
+    width: 40%;
+}
+.left img{
+    width: 100%;
+    margin-top: 50px;
+}
+.product{
+    margin-bottom: 40px;
+}
+.product h1{
+    font-weight: 400;
+    font-size: 2.75em;
+    letter-spacing: -2px;
+}
+.product h3{
+    margin-top:1.25em;
+    font-weight: 400;
+    font-size: 1.25em;
+    letter-spacing: 1px;
+    color: rgb(27, 25, 25);
+}
+.product h3 span{
+    color:#009688;
+    font-weight: bold;
+}
+.product h4{
+    margin-top: 1.25em;
+    font-weight: 400;
+    font-size: 1.25em;
+    letter-spacing: 1px;
+    color: rgb(27, 25, 25);
+}
+.product p{
+    margin-top: 1.25em;
+    font-size: 1.0px;
+    font-weight: 400;
+    color: #86939e;
+}
+.list{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+  margin-top: 1.25em;
+}
+.list .item{
+  margin: 5px;
+  width: 15%;
+  height: 30%;
+  cursor: pointer;
+  padding: 4px;
+  border-radius: 6px;
+}
+.item:hover{
+    border: 2px solid #009688;
+}
+.output-outer img{
+    width: 400px;
+}
+.button button{
+    font-size: 15px;
+    font-weight: bold;
+    color:#fff;
+    padding: 10px 20px;
+    letter-spacing: 2px;
+    background-color: #009688;
+    cursor: pointer;
+    box-shadow: 0 3px 10px rgb(0 0 0/ 50%);
+    border:none;
+    border-radius: 4px;
+}
